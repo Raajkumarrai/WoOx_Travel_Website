@@ -1,0 +1,165 @@
+.deal-container-contain p{
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+#reservation img{
+    height: 70vh;
+}
+.reservation-first-btn button{
+    color: rgb(9, 123, 138);
+}
+.reservation-first-btn button:hover{
+    cursor: pointer;
+    color: white;
+}
+
+
+.reservation-flex{
+    height: 35vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reservation-flex-box{
+    border: 1px solid white;
+    height: 23vh;
+    margin-top: -150px;
+    z-index: 1;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    width: 42vh;
+    background-color: white;
+    color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.reservation-flex-box p{
+    color: rgb(15, 166, 185);
+    font-weight: 700;
+}
+.reservation-flex-box h1{
+    font-size: 23px;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.reservation-flex-box i{
+    margin: 15px;
+    background-color: rgb(230, 217, 217);
+    padding: 20px 21px;
+    border-radius: 50%;
+    color: rgb(8, 168, 168);
+    font-size: 20px;
+}
+
+
+.reservation-container{
+    height: 115vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+.reservation-container-map iframe{
+    border-radius: 25px 25px 0 0;
+}
+
+.reservation-container-form{
+    background-color: rgb(255, 255, 255, 0.9);
+    color: black;
+    height: 55vh;
+    border-radius: 0 0px 25px 25px;
+}
+
+.formHead{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    margin-top: -5px;
+}
+.formHead h1{
+    margin-right: 7px;
+}
+.namephone-flex{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.namephone-flex input, label{
+    width: 40vh;
+    font-size: 21px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.namephone-flex input{ 
+    margin-top: 10px;  
+    border: 1px solid rgb(131, 127, 127, 0.8);
+    margin-left: 10px;
+}
+
+
+.guestdate-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.guestdate-flex label, input, select{
+    width: 40vh;
+    font-size: 21px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.guestdate-flex input, select{ 
+    margin-top: 10px;  
+    border: 1px solid rgb(131, 127, 127, 0.8);
+    margin-left: 10px;
+}
+
+
+.destination-select{
+    text-align: center;
+    margin-top: 25px;
+}
+.destination-select select{
+    padding: 5px 15px;
+}
+.destination-select label{
+    margin-left: -82vh;
+    font-size: 23px;
+}
+.destination-select select{
+    width: 108vh;
+}
+
+
+.reservation-btn{
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 10px;
+}
+.reservation-btn button{
+    text-align: center;
+    background-color: rgb(17, 141, 141);
+    color: white;
+    width: 110vh;
+    margin: 25px 5px;
+    font-size: 22px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: none;
+    transition: 0.4s;
+}
+.reservation-btn button:hover{
+    cursor: pointer;
+    background-color: rgb(45, 196, 196);
+}
+.reservation-container-form input, select:hover{
+    cursor: pointer;
+}

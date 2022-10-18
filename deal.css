@@ -1,0 +1,247 @@
+.deal-container{
+    height: 65vh;
+    width: 100%;
+    position: relative;
+}
+.deal-imgSection::before{
+    position: absolute;
+    top: 0;bottom: 0;right: 0;left: 0;
+    content: "";
+    opacity: 0.4;
+    background-color: black;
+}
+.deal-imgSection img{
+    height: 65vh;
+    width: 100%;
+    object-fit: cover;
+}
+.deal-container-contain{
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.deal-container-contain h3{
+    margin-bottom: 20px;
+}
+.deal-container-contain h1{
+    letter-spacing: 1px;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.deal-container-contain button{
+    width: 20vh;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 35px;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+.deal-container-contain button:hover{
+    background-color: #2fa7ac;
+    cursor: pointer;
+    border: 1px solid #2fa7ac;
+}
+
+
+/* hjkg */
+
+.deal1-container{
+    height: 25vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+.deal1-container-content{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #20bec4;
+    margin-left: 18%;
+    margin-right: 18%;
+    background-color:#20bec4;
+    padding: 0 30px;
+    border-radius: 0 0px 25px 25px;
+}
+.first-Destination{
+    margin-left: -110px;
+    margin-right: 40px;
+}
+.custom-select select{
+    width: 35vh;
+    height: 3vh;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #20bec4;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+}
+.deal1-container-content legend{
+    font-size: 20px;
+    font-stretch: ultra-expanded;
+    margin-left: 20px;
+    font-weight: 800;
+    letter-spacing: normal;
+}
+.deal1-container-content button{
+    width: 18vh;
+    margin-right: 15px;
+    font-size: 17px;
+    padding: 10px 15px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 25px;
+    background-color: #20bec4;
+    transition: 0.4s;
+}
+.deal1-container-content button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #20bec4;
+}
+
+/* fdbshg */
+.deal2-container{
+    height: 120vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.deal2-conatiner-content-head{
+    text-align: center;
+    margin-left: 32%;
+    margin-right: 32%;
+}
+.deal2-conatiner-content-head h1{
+    padding-top: 10px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    opacity: 0.5;
+}
+.deal2-conatiner-content-head p{
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+.deal2-container-content-img-flex{
+    display: flex;
+    margin-top: 45px;
+    justify-content: center;
+}
+.deal2-container-content-img-flex1{
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    width: 35%;
+    margin: -10px  12px;
+    margin-bottom: -10px;
+    border-radius: 25px;
+    background-color: white;
+    opacity: 0.9;
+}
+.deal2-container-content-img-flex1 img{
+    margin-top: 4px;
+    height: 40vh;
+    width: 33vh;
+    border-radius: 20px 0 0 20px;
+}
+.deal2-container-content-detail{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.deal2-container-content-detail h3{
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #20bec4;
+    font-weight: 400;
+}
+.deal2-container-content-detail h2{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: black;
+}
+.deal2-small-flex{
+    display: flex;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    color: black;
+}
+.deal-small-flex-flex{
+    display: flex;
+    margin-right: 45px;
+}
+.deal-small-flex-flex i{
+    margin-right: 10px;
+}
+.deal-small-flex-lorem{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+    font-size: 21px;
+    color: black;
+    opacity: 0.5;
+}
+.deal-small-flex-btn button{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 22vh;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color:#20bec4;
+    color: white;
+    border: none;
+    transition: 0.4s;
+}
+.deal-small-flex-btn button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #20bec4;
+}
+
+.deal-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 20px;
+}
+.deal-btn h1{
+    padding: 5px 15px;
+    border-radius: 50%;
+    border: 1px solid aqua;
+    color: #20bec4;
+    transition: 0.5s;
+}
+.deal-btn i{
+    padding: 10px 12px;
+    color: #20bec4;
+    font-size: 25px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.deal-btn h1:hover, i:hover{
+    background-color: #20bec4;
+    color: white;
+}
+.deal-btn .mid{
+    background-color: #20bec4;
+    color: white;
+}
+
+option{
+    color: white;
+    background-color: #20bec4;
+}
